@@ -2,7 +2,464 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3811b96-36fb-4f87-a398-1da3b23c8ae6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/star-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/star-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/scripts.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/build.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ApcCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ApcuCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ArrayCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/BaseFileCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheProviderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ChainCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CouchbaseCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FileCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FilesystemCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcacheCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcachedCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MongoDBCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PhpFileCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PredisCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RedisCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RiakCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/SQLite3CacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/VoidCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/WinCacheCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/XcacheCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ZendDataCacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/DoctrineTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/php.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/phpunit.travis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/AbstractLazyCollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/ArrayCollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/ClosureExpressionVisitorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/CollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/CriteriaTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/Common/Collections/ExpressionBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/LazyArrayCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/tests/Doctrine/Tests/TestInit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/TestInit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/.scrutinizer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/phpmd.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorPerformance/InstantiatorPerformanceEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/InvalidArgumentExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/Exception/UnexpectedValueExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTest/InstantiatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/AbstractClassAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ArrayObjectAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/ExceptionAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/FinalExceptionAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharExceptionAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SerializableArrayObjectAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleSerializableAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleTraitAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnCloneableAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnserializeExceptionArrayObjectAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/WakeUpNoticesAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/XMLReaderAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/config.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/config.w32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/twig.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/CompilerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FilterCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FilterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FunctionCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FunctionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LexerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/ExtensionReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SetTemp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TemplateInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TestCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBroker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBrokerInterface.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/doctrine" afterPath="$PROJECT_DIR$/vendor/bin/doctrine" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/doctrine-dbal" afterPath="$PROJECT_DIR$/vendor/bin/doctrine-dbal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/doctrine.php" afterPath="$PROJECT_DIR$/vendor/bin/doctrine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationRegistry.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/FileCacheReader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/FileCacheReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/PhpParser.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/PhpParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/TokenParser.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/TokenParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcuCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcuCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ChainCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ChainCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CouchbaseCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CouchbaseCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiGetCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiGetCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiPutCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MultiPutCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PhpFileCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PhpFileCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PredisCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PredisCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RiakCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RiakCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/XcacheCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/XcacheCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" afterPath="$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/common/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/common/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/EventManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/EventManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/PreUpdateEventArgs.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/PreUpdateEventArgs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ManagerRegistry.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ManagerRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/FileDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/FileDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/PHPDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/PHPDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManagerDecorator.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManagerDecorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectRepository.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/PersistentObject.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/PersistentObject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Autoloader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Autoloader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/InvalidArgumentException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/UnexpectedValueException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception/UnexpectedValueException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionParser.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/ClassUtils.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/ClassUtils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/Debug.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Util/Debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/UPGRADE.md" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/UPGRADE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/bin/doctrine-dbal" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/bin/doctrine-dbal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/ArrayStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/ArrayStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/QueryCacheProfile.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/QueryCacheProfile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/ResultCacheStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Cache/ResultCacheStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connections/MasterSlaveConnection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connections/MasterSlaveConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/DBALException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/DBALException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractDriverException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractDriverException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractOracleDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractOracleDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractPostgreSQLDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractPostgreSQLDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLAnywhereDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLAnywhereDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLiteDriver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractSQLiteDriver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Connection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DriverException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DriverException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DrizzlePDOMySql/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/DrizzlePDOMySql/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Connection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Statement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/IBMDB2/DB2Statement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliConnection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/Mysqli/MysqliStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Connection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOIbm/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOIbm/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOOracle/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOOracle/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOPgSql/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOPgSql/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlite/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlite/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Connection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOSqlsrv/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ResultStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/ResultStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereConnection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLAnywhere/SQLAnywhereStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/Driver.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/Driver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvConnection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvStatement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/SQLSrv/SQLSrvStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/DriverManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/DriverManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Id/TableGenerator.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Id/TableGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/AbstractPlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/AbstractPlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DB2Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DB2Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DrizzlePlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DrizzlePlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/Keywords/MySQL57Keywords.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/Keywords/MySQL57Keywords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/Keywords/MySQLKeywords.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/Keywords/MySQLKeywords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySQL57Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySQL57Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySqlPlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySqlPlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/OraclePlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/OraclePlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSQL91Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSQL91Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSQL92Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSQL92Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywhere11Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywhere11Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywhere12Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywhere12Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywhere16Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywhere16Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywherePlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAnywherePlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2005Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2005Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2008Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2008Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2012Platform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2012Platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServerPlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServerPlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SqlitePlatform.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SqlitePlatform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Portability/Connection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Portability/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Portability/Statement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Portability/Statement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/Expression/CompositeExpression.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/Expression/CompositeExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryBuilder.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/AbstractSchemaManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/AbstractSchemaManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Constraint.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Constraint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/DB2SchemaManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/DB2SchemaManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Index.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/PostgreSqlSchemaManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/PostgreSqlSchemaManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Schema.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SqliteSchemaManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SqliteSchemaManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Table.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Visitor/CreateSchemaSqlCollector.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Visitor/CreateSchemaSqlCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardConnection.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureFederationsSynchronizer.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureFederationsSynchronizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureShardManager.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureShardManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/Schema/MultiTenantVisitor.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/SQLAzure/Schema/MultiTenantVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command/ReservedWordsCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command/ReservedWordsCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command/RunSqlCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command/RunSqlCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/ConsoleRunner.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/ConsoleRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/ConversionException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/ConversionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateTimeType.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateTimeType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateTimeTzType.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateTimeTzType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DateType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DecimalType.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/DecimalType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/JsonArrayType.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/JsonArrayType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/TimeType.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/TimeType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Type.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Command/CreateDatabaseDoctrineCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/ConnectionFactory.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/ConnectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DataCollector/DoctrineDataCollector.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DataCollector/DoctrineDataCollector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DependencyInjection/DoctrineExtension.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DependencyInjection/DoctrineExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DoctrineBundle.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/DoctrineBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Resources/config/dbal.xml" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Resources/config/dbal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/.travis.yml" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Command/StatsCommand.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Command/StatsCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/CacheProviderLoader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/CacheProviderLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/Definition/RedisDefinition.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/Definition/RedisDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/SymfonyBridgeAdapter.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/DependencyInjection/SymfonyBridgeAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Resources/config/schema/doctrine_cache-1.0.xsd" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Resources/config/schema/doctrine_cache-1.0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Resources/doc/reference.rst" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Resources/doc/reference.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Resources/doc/usage.rst" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Resources/doc/usage.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/AbstractDoctrineCacheExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/AbstractDoctrineCacheExtensionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/Bundles/XmlBundle/XmlBundle.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/Bundles/XmlBundle/XmlBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/Bundles/YamlBundle/YamlBundle.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/Bundles/YamlBundle/YamlBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/config/xml/namespaced.xml" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/config/xml/namespaced.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/config/yml/custom_providers.yml" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/config/yml/custom_providers.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/config/yml/namespaced.yml" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/Fixtures/config/yml/namespaced.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/SymfonyBridgeAdapterTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/DependencyInjection/SymfonyBridgeAdapterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/BaseCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/BaseCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/ChainCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/ChainCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Command/CommandTestCase.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Command/CommandTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Command/StatsCommandTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Command/StatsCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/FileSystemCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/FileSystemCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Fixtures/Memcached.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Fixtures/Memcached.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/MemcacheCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/MemcacheCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/MemcachedCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/MemcachedCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/MongoDBCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/MongoDBCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/PhpFileCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/PhpFileCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/RiakCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/RiakCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Sqlite3CacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/Sqlite3CacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/VoidCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/Functional/VoidCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/FunctionalTestCase.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/FunctionalTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/TestCase.php" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/travis/install-deps.sh" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Tests/travis/install-deps.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" afterPath="$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/README.md" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/bin/doctrine" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/bin/doctrine" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/bin/doctrine.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/bin/doctrine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/docs/bin/generate-docs.sh" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/docs/bin/generate-docs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Query/AST/Functions/ConcatFunction.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Query/AST/Functions/ConcatFunction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm.xml" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/LoggerChannelPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/LoggerChannelPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/.php_cs.dist" afterPath="$PROJECT_DIR$/vendor/twig/twig/.php_cs.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/.travis.yml" afterPath="$PROJECT_DIR$/vendor/twig/twig/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/composer.json" afterPath="$PROJECT_DIR$/vendor/twig/twig/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/BaseNodeVisitor.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/BaseNodeVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Cache/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Cache/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Cache/Null.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Cache/Null.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Loader.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Syntax.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Syntax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExistsLoaderInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExistsLoaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Debug.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Escaper.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Escaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/GlobalsInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/GlobalsInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/InitRuntimeInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/InitRuntimeInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Optimizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Profiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Staging.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Staging.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/StringLoader.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/StringLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Array.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Array.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Chain.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Chain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LoaderInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LoaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Markup.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Markup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/AutoEscape.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/AutoEscape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Block.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/CheckSecurity.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/CheckSecurity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Embed.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Embed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Array.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Array.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Power.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Power.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/BlockReference.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/BlockReference.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Call.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Call.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Filter/Default.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Filter/Default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/GetAttr.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/GetAttr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Name.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Name.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/NullCoalesce.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/NullCoalesce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test/Defined.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test/Defined.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Unary.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Unary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/For.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/For.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/If.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/If.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Macro.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Macro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Module.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SandboxedPrint.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SandboxedPrint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Set.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Set.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Spaceless.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Spaceless.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeTraverser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeTraverser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Escaper.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Escaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitorInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Blackfire.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Blackfire.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Html.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Text.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Profile.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Sandbox/SecurityPolicy.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Sandbox/SecurityPolicy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleFilter.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleFunction.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleFunction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Source.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Source.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SourceContextLoaderInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SourceContextLoaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TemplateWrapper.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TemplateWrapper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/IntegrationTestCase.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/IntegrationTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/NodeTestCase.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/NodeTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Token.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Block.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Do.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Do.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Embed.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Embed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Extends.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Extends.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Flush.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Flush.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/From.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/From.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/If.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/If.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Import.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Macro.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Macro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Set.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Set.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Use.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Use.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/With.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/With.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Util/DeprecationCollector.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Util/DeprecationCollector.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,26 +469,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="581">
+              <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="84">
-                <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="e#5304#5323#0#HTML" expanded="true" />
+                <element signature="e#5447#5466#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,6 +514,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -53,6 +525,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -76,6 +551,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,19 +562,69 @@
             <path>
               <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
               <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cvgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvgen" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/js" />
+      <recent name="$PROJECT_DIR$/web/css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,6 +641,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c3811b96-36fb-4f87-a398-1da3b23c8ae6" name="Default" comment="" />
@@ -129,33 +658,61 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2035000" />
+    <option name="totallyTimeSpent" value="4973000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
+    <frame x="0" y="26" width="1600" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18632202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24548969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18632202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -165,6 +722,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -177,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -186,7 +750,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="84">
             <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -194,9 +757,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="577">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#5304#5323#0#HTML" expanded="true" />
+            <element signature="e#5447#5466#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
