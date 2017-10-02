@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="photo-header" class="text-center">
+                    <!-- PHOTO (AVATAR) -->
+                    <div id="photo">
+                        <img src="img/avatar.jpg" alt="avatar">
+                    </div>
+                    <div id="text-header">
+                        <h1>Hello,<br> my name is <span>{{ name }}</span><sup>{{ age }}yo</sup> and this is my resume/cv</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-7">
+                <!-- ABOUT ME -->
+                <div class="box">
+                    <h2>About Me</h2>
+                    <p>{{ about_me }}</p>
+                </div>
+                <!-- EDUCATION -->
+                <div class="box">
+                    <h2>Education</h2>
+                    <ul id="education" class="clearfix">
+                        {% for item in education %}
+                        <li>
+                            <div class="year pull-left">{{ item.date }}</div>
+                            <div class="description pull-right">
+                                <h3>{{ item.title }}</h3>
+                                <p>{{ item.description }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- EXPERIENCES -->
+                <div class="box">
+                    <h2>Experiences</h2>
+                    {% for item in experiences %}
+                    <div class="job clearfix">
+                        <div class="col-xs-3">
+                            <div class="where">{{ item.entreprise }}</div>
+                            <div class="year">{{ item.date }}</div>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="profession">{{ item.title }}</div>
+                            <div class="description">{{ item.description }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <!-- CONTACT -->
+                <div class="box clearfix">
+                    <h2>Contact</h2>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+                        <div class="title only pull-right">{{ contact.phone }}</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+                        <div class="title only pull-right">{{ contact.email }}</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+                        <div class="title pull-right">LinkedIn</div>
+                        <div class="description pull-right">{{ contact.linkedin }}</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+                        <div class="title pull-right">GitHub</div>
+                        <div class="description pull-right">{{ contact.github }}</div>
+                    </div>
+                </div>
+                <!-- SKILLS -->
+                <div class="box">
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        {% for item in skills %}
+                        <div class="item-skills" data-percent="{{ item.percent }}">{{ item.label }}</div>
+                        {% endfor %}
+                        <div class="skills-legend clearfix">
+                            <div class="legend-left legend">Beginner</div>
+                            <div class="legend-left legend"><span>Proficient</span></div>
+                            <div class="legend-right legend"><span>Expert</span></div>
+                            <div class="legend-right legend">Master</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- LANGUAGES -->
+                <div class="box">
+                    <h2>Languages</h2>
+                    <div id="language-skills">
+                        {% for item in languages %}
+                        <div class="skill">{{ item.label }} <div class="icons pull-right"><div style="width: {{ item.percent * 100 }}%;" class="icons-red"></div></div></div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <!-- HOBBIES -->
+                <div class="box">
+                    <h2>Hobbies</h2>
+                    {% for item in hobbies %}
+                    <div class="hobby">{{ item }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

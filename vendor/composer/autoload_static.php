@@ -19,6 +19,10 @@ class ComposerStaticInit536f82e6fd30baebdc554abc134e9082
     );
 
     public static $prefixLengthsPsr4 = array (
+        'U' => 
+        array (
+            'UserBundle\\' => 11,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -84,6 +88,10 @@ class ComposerStaticInit536f82e6fd30baebdc554abc134e9082
     );
 
     public static $prefixDirsPsr4 = array (
+        'UserBundle\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/UserBundle',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',

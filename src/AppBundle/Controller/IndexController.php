@@ -2,7 +2,7 @@
 
 namespace AppBundle\Controller;
 
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -10,10 +10,21 @@ class IndexController extends Controller
 {
     /**
      * @Route("/", name="homepage")
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\Response
      */
     public function indexAction(Request $request)
     {
+        $name = "Hugo";
+        $age = "26";
         $aboutMe = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.";
+
+        $contact = [
+            "phone" => "06 72 39 62 85",
+            "email" => "hquezada@hq-info.fr",
+            "github" => "https://github.com/GohuHQ/",
+            "linkedin" => "https://www.linkedin.com/in/hugo-quezada-a3b2493b"
+        ];
 
         $education = [
             [
@@ -44,11 +55,53 @@ class IndexController extends Controller
             ]
         ];
 
-        return $this->render('default/index.html.twig', [
+        $skills = [
+            [
+                "label" => "HTML",
+                "percent" => "1.00"
+            ],
+            [
+                "label" => "CSS",
+                "percent" => "0.90"
+            ],
+            [
+                "label" => "PHP",
+                "percent" => "1.00"
+            ],
+            [
+                "label" => "jQuery",
+                "percent" => "0.70"
+            ]
+        ];
+
+        $languages = [
+            [
+                "label" => "Spanish",
+                "percent" => "0.80"
+            ],
+            [
+                "label" => "English",
+                "percent" => "0.60"
+            ]
+        ];
+
+        $hobbies = [
+            "Cycle",
+            "Beer",
+            "Programming"
+        ];
+
+        return $this->render('front/index.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+            "name" => $name,
+            "age" => $age,
             'about_me' => $aboutMe,
+            'contact' => $contact,
             'education' => $education,
-            'experiences' => $experiences
+            'experiences' => $experiences,
+            'skills' => $skills,
+            'languages' => $languages,
+            'hobbies' => $hobbies
         ]);
     }
 }
