@@ -1,0 +1,100 @@
+{% extends 'back/base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-4">
+            <button class="btn pull-right hidden-sm-down btn-success" data-toggle="modal" data-target="#addModal"><i
+                        class="mdi mdi-plus-circle"></i> Add
+            </button>
+        </div>
+        <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel1">New skill</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                    </div>
+                    {{ form_start(form) }}
+                    {{ form_errors(form) }}
+                    <div class="modal-body">
+                        <div class="form-group">
+                            {{ form_label(form.name, "Skill", {'label_attr': {'class': 'control-label'}}) }}
+                            {{ form_errors(form.name) }}
+                            {{ form_widget(form.name) }}
+                        </div>
+                        <div class="form-group">
+                            {{ form_label(form.percent, "Level", {'label_attr': {'class': 'control-label'}}) }}
+                            {{ form_errors(form.percent) }}
+                            {{ form_widget(form.percent, {'attr': {'data-bts-button-down-class': 'btn btn-secondary btn-outline', 'data-bts-button-up-class': 'btn btn-secondary btn-outline'}}) }}
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success">Add</button>
+                    </div>
+                    {{ form_rest(form) }}
+
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if not empty skills %}
+        {% for item in skills %}
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="m-t-30">{{ item.name }}<span class="pull-right">{{ item.percent*100 }}%</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger wow animated progress-animated" style="width: 85%; height:6px;"
+                             role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-info m-t-30"><i class="fa fa-pencil"></i> Edit</button>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <div class="row">
+        <div class="col-md-4">
+            <h5 class="m-t-30">Code editor<span class="pull-right">90%</span></h5>
+            <div class="progress">
+                <div class="progress-bar bg-info wow animated progress-animated" style="width: 90%; height:6px;"
+                     role="progressbar"><span class="sr-only">60% Complete</span></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-info m-t-30"><i class="fa fa-pencil"></i> Edit</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h5 class="m-t-30">Illustrator<span class="pull-right">65%</span></h5>
+            <div class="progress">
+                <div class="progress-bar bg-success wow animated progress-animated" style="width: 65%; height:6px;"
+                     role="progressbar"><span class="sr-only">60% Complete</span></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-info m-t-30"><i class="fa fa-pencil"></i> Edit</button>
+        </div>
+    </div>
+
+{% endblock %}
+{% block javascripts_specific %}
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            jQuery("input#appbundle_skill_percent").TouchSpin({
+                min: 0,
+                max: 100,
+                step: 5,
+                decimals: 2,
+                boostat: 5,
+                maxboostedstep: 10,
+                postfix: '%'
+            });
+        });
+    </script>
+{% endblock %}

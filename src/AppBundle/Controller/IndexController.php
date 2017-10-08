@@ -17,7 +17,7 @@ class IndexController extends Controller
     {
         $name = "Hugo";
         $age = "26";
-        $aboutMe = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.";
+        $aboutMe = "Passionné d’informatique et auto-entrepreneur depuis avril 2014. Je suis à la recherche de projets me permettant de mettre à contribution mes compétences et d’en acquérir de nouvelle";
 
         $contact = [
             "phone" => "06 72 39 62 85",
@@ -28,30 +28,46 @@ class IndexController extends Controller
 
         $education = [
             [
-                "date" => "2005",
-                "title" => "Secondary school specializing in artistic",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi."
+                "date" => "2017",
+                "title" => "Formation Symfony 3 - Développement Web",
+                "description" => "Utilisation et maîtrise de tous les outils majeurs de symfony afin de devenir entièrement autonome avec le framework. Maîtrise du modèle MVC, des formulaires, de l’authentification. Initiation aux tests unitaires et à la gestion du cache HTTP"
+            ],
+            [
+                "date" => "2013",
+                "title" => "Licence Développement en Applications Web et Innovation Numérique",
+                "description" => "Formation aux méthodes et technologies frontend et backend et aux spécificités des développements web mobile et du multimédia"
             ],
             [
                 "date" => "2012",
-                "title" => "Second level graduation in Graphic Design",
-                "description" => "Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis voluptatibus."
+                "title" => "DUT Informatique",
+                "description" => "Formation de technicien supérieur en informatique"
             ]
         ];
 
         $experiences = [
             [
-                "entreprise" => "Google",
-                "date" => "2013-2014",
-                "title" => "Front-end developer / php programmer",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.
-"
+                "entreprise" => "H&A Location",
+                "date" => "Depuis 2014",
+                "title" => "Référent technique du pôle informatique",
+                "description" => "Prestataire au sein de l’équipe informatique, référent technique chargé de la maintenance et des évolutions de l’ERP et de l’extranet, de l’évolution du framework MVC utilisé vers une logique de fonctionnement plus actuelle et de la refactorisation du code existant avec tests de non régression. Compétences mobilisées : PHP, SQL, Javascript (jQuery, HighCharts), PHPUnit, Git, Docker"
             ],
             [
-                "entreprise" => "Twitter",
-                "date" => "2012",
-                "title" => "Web Developer",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta."
+                "entreprise" => "Les Francas",
+                "date" => "2014-2017",
+                "title" => "Webmestre de l'application",
+                "description" => "Chargé de la maintenance du logiciel de gestion et de suivi des inscriptions, des interactions avec des applications externes et des évolutions. Compétences mobilisées : PHP, SQL, Javascript (jQuery)."
+            ],
+            [
+                "entreprise" => "Aroéven",
+                "date" => "2014-2015",
+                "title" => "Webmestre de l'application",
+                "description" => "Chargé de la maintenance du logiciel de gestion et de suivi de l’activité. Compéteneces mobilisées : PHP, SQL, Javacript"
+            ],
+            [
+                "entreprise" => "DiLaSoft",
+                "date" => "2012-2015",
+                "title" => "Développeur web",
+                "description" => "Stagiaire à deux reprises puis développeur Web au sein de la start-up. Compétences mobilisées : PHP, SQL, Javascript."
             ]
         ];
 

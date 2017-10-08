@@ -13,7 +13,7 @@ login:
         _controller: UserBundle:Security:login
 
 login_check:
-    path: /login_check
+    path: /admin/login_check
 
 logout:
-    path: /logout
+    path: /admin/logout

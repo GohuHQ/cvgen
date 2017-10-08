@@ -2,6 +2,7 @@
 
 namespace UserBundle\Entity;
 
+use AppBundle\Entity\Person;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
@@ -12,7 +13,6 @@ use Symfony\Component\Security\Core\User\UserInterface;
  *
  * @ORM\Table(name="user")
  * @ORM\Entity(repositoryClass="UserBundle\Repository\UserRepository")
- * @UniqueEntity(fields="email", message="Email already taken")
  * @UniqueEntity(fields="username", message="Username already taken")
  */
 class User implements UserInterface, \Serializable
@@ -25,15 +25,6 @@ class User implements UserInterface, \Serializable
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="email", type="string", length=255, unique=true)
-     * @Assert\NotBlank()
-     * @Assert\Email()
-     */
-    private $email;
 
     /**
      * @var string
@@ -69,6 +60,12 @@ class User implements UserInterface, \Serializable
      * @ORM\Column(name="roles", type="array")
      */
     private $roles = array();
+
+    /**
+     * @ORM\OneToOne(targetEntity="AppBundle\Entity\Person", cascade={"persist"})
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $person;
 
     public function __construct()
     {
@@ -149,30 +146,6 @@ class User implements UserInterface, \Serializable
     public function getPassword()
     {
         return $this->password;
-    }
-
-    /**
-     * Set email
-     *
-     * @param string $email
-     *
-     * @return User
-     */
-    public function setEmail($email)
-    {
-        $this->email = $email;
-
-        return $this;
-    }
-
-    /**
-     * Get email
-     *
-     * @return string
-     */
-    public function getEmail()
-    {
-        return $this->email;
     }
 
     /**
@@ -286,5 +259,29 @@ class User implements UserInterface, \Serializable
             // see section on salt below
             // $this->salt
             ) = unserialize($serialized);
+    }
+
+    /**
+     * Set person
+     *
+     * @param Person $person
+     *
+     * @return User
+     */
+    public function setPerson(Person $person)
+    {
+        $this->person = $person;
+
+        return $this;
+    }
+
+    /**
+     * Get person
+     *
+     * @return Person
+     */
+    public function getPerson()
+    {
+        return $this->person;
     }
 }

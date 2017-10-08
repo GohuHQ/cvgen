@@ -2,6 +2,7 @@
 
 namespace UserBundle\Controller;
 
+use AppBundle\Entity\Person;
 use UserBundle\Entity\User;
 use UserBundle\Form\UserType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -53,7 +54,13 @@ class SecurityController extends Controller
             $user->setIsActive(true);
 
             $em = $this->getDoctrine()->getManager();
+
+            $person = new Person();
+            $em->persist($person);
+            $user->setPerson($person);
+
             $em->persist($user);
+
             $em->flush();
 
             $request->getSession()->getFlashBag()->add('success', 'The user has been created');

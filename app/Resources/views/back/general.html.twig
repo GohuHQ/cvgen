@@ -1,0 +1,350 @@
+{% extends 'back/base.html.twig' %}
+
+{% block body %}
+    {% if type == 'view' %}
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card card-outline-info">
+                    <div class="card-block">
+                        <form class="form-horizontal" role="form" action="{{ path('general', {'type': 'edit'}) }}">
+                            <div class="form-body">
+                                <h3 class="box-title">Person Info</h3>
+                                {% include ('::flash_messages.html.twig') %}
+                                <hr class="m-t-0 m-b-40">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="control-label text-right col-md-3">First Name:</label>
+                                            <div class="col-md-9">
+                                                <p class="form-control-static"> {{ person.firstname }} </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            {#<label class="control-label text-right col-md-3">Picture:</label>#}
+                                            {#<div class="col-md-9">#}
+                                                {#{% if person.picture is not null %}#}
+                                                    {#<img#}
+                                                            {#src="{{ asset(person.picture.webPath) }}"#}
+                                                            {#alt="{{ advert.picture.alt }}"#}
+                                                    {#/>#}
+                                                {#{% endif %}#}
+                                            {#</div>#}
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="control-label text-right col-md-3">Last Name:</label>
+                                            <div class="col-md-9">
+                                                <p class="form-control-static"> {{ person.lastname }} </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3">Date of Birth:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.birthdate|date('d/m/Y') }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3">About me:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.aboutme }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <h3 class="box-title">Contact</h3>
+                            <hr class="m-t-0 m-b-40">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i class="mdi mdi-email"></i>
+                                            Email:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.email }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i class="mdi mdi-phone"></i>
+                                            Phone number:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.phonenumber }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i
+                                                    class="mdi mdi-facebook"></i> Facebook:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.facebook }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i
+                                                    class="mdi mdi-linkedin"></i> LinkedIn:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.linkedin }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i
+                                                    class="mdi mdi-github-circle"></i> Twitter:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.twitter }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i
+                                                    class="mdi mdi-github-circle"></i> Github:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.github }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i class="mdi mdi-skype"></i>
+                                            Skype:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.skype }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="control-label text-right col-md-3"><i
+                                                    class="mdi mdi-youtube-play"></i> YouTube:</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-static"> {{ person.youtube }} </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                    </div>
+                    <div class="form-actions">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button type="submit" class="btn btn-info"><i class="fa fa-pencil"></i> Edit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Edit Form -->
+    {% endif %}
+    {% if type == 'edit' %}
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card card-outline-info">
+                    <div class="card-block">
+                        {{ form_start(form) }}
+                        {{ form_errors(form) }}
+                        <div class="form-body">
+                            <h3 class="card-title">Person Info</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {{ form_label(form.firstname, "First Name", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.firstname) }}
+                                        {{ form_widget(form.firstname) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {#{{ form_label(form.picture, "Picture", {'label_attr': {'class': 'control-label'}}) }}#}
+                                        {#{% if person.picture is not null %}#}
+                                        {#<img#}
+                                                {#src="{{ asset(person.picture.webPath) }}"#}
+                                                {#alt="{{ advert.picture.alt }}"#}
+                                        {#/>#}
+                                        {#{% endif %}#}
+                                        {#{{ form_widget(form.picture) }}#}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {{ form_label(form.lastname, "Last Name", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.lastname) }}
+                                        {{ form_widget(form.lastname) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {{ form_label(form.birthdate, "Date of birth", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.birthdate) }}
+                                        {{ form_widget(form.birthdate, {'attr': {'class': 'form-control datepicker', 'placeholder': 'dd/mm/yyyy'}}) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {{ form_label(form.aboutme, "About me", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.aboutme) }}
+                                        {{ form_widget(form.aboutme, {'attr': {'class': 'form-control'}}) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <h3 class="box-title m-t-40">Contact</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <i class='mdi mdi-email'></i>
+                                        {{ form_label(form.email, "Email", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.email) }}
+                                        {{ form_widget(form.email, {'attr': {'placeholder': 'user@mydomain.com'}}) }}
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-phone"></i>
+                                        {{ form_label(form.phonenumber, "Phone number", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.phonenumber) }}
+                                        {{ form_widget(form.phonenumber) }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-facebook"></i>
+                                        {{ form_label(form.facebook, "Facebook", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.facebook) }}
+                                        {{ form_widget(form.facebook) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-linkedin"></i>
+                                        {{ form_label(form.linkedin, "LinkedIn", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.linkedin) }}
+                                        {{ form_widget(form.linkedin) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-twitter"></i>
+                                        {{ form_label(form.twitter, "Twitter", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.twitter) }}
+                                        {{ form_widget(form.twitter) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-github-circle"></i>
+                                        {{ form_label(form.github, "Github", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.github) }}
+                                        {{ form_widget(form.github) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-skype"></i>
+                                        {{ form_label(form.skype, "Skype", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.skype) }}
+                                        {{ form_widget(form.skype) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <i class="mdi mdi-youtube-play"></i>
+                                        {{ form_label(form.youtube, "Youtube", {'label_attr': {'class': 'control-label'}}) }}
+                                        {{ form_errors(form.youtube) }}
+                                        {{ form_widget(form.youtube) }}
+                                    </div>
+                                </div>
+                                <!--/span-->
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> Save</button>
+                            <button type="button" class="btn btn-inverse">Cancel</button>
+                        </div>
+
+                        {{ form_rest(form) }}
+
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
