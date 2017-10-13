@@ -9,6 +9,7 @@ use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\UrlType;
+use AppBundle\Form\ImageType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -18,7 +19,7 @@ class PersonType extends AbstractType
     {
         $builder->add('firstname', TextType::class)
             ->add('lastname', TextType::class)
-//            ->add('picture', ImageType::class)
+            ->add('image', ImageType::class)
             ->add('birthdate', DateType::class, [
                 'widget' => 'single_text',
                 'format' => 'dd/MM/yyyy',

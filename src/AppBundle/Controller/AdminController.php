@@ -2,6 +2,7 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Person;
 use AppBundle\Entity\Skill;
 use AppBundle\Form\PersonType;
 use AppBundle\Form\SkillType;
@@ -109,7 +110,7 @@ class AdminController extends Controller
 
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
-
+            $skill->setPerson($person);
             $em = $this->getDoctrine()->getManager();
             $em->persist($skill);
             $em->flush();

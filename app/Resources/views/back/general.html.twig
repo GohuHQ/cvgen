@@ -23,15 +23,15 @@
                                     <!--/span-->
                                     <div class="col-md-6">
                                         <div class="form-group row">
-                                            {#<label class="control-label text-right col-md-3">Picture:</label>#}
-                                            {#<div class="col-md-9">#}
-                                                {#{% if person.picture is not null %}#}
-                                                    {#<img#}
-                                                            {#src="{{ asset(person.picture.webPath) }}"#}
-                                                            {#alt="{{ advert.picture.alt }}"#}
-                                                    {#/>#}
-                                                {#{% endif %}#}
-                                            {#</div>#}
+                                            <label class="control-label text-right col-md-3">image:</label>
+                                            <div class="col-md-9">
+                                                {% if person.image is not null %}
+                                                    <img
+                                                            src="{{ asset(person.image) }}"
+                                                            alt="{{ person.image }}"
+                                                    />
+                                                {% endif %}
+                                            </div>
                                         </div>
                                     </div>
                                     <!--/span-->
@@ -207,14 +207,14 @@
                                 <!--/span-->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        {#{{ form_label(form.picture, "Picture", {'label_attr': {'class': 'control-label'}}) }}#}
-                                        {#{% if person.picture is not null %}#}
-                                        {#<img#}
-                                                {#src="{{ asset(person.picture.webPath) }}"#}
-                                                {#alt="{{ advert.picture.alt }}"#}
-                                        {#/>#}
-                                        {#{% endif %}#}
-                                        {#{{ form_widget(form.picture) }}#}
+                                        {{ form_label(form.image, "image", {'label_attr': {'class': 'control-label'}}) }}
+                                        {% if person.image is not null %}
+                                        <img
+                                                src="{{ asset(person.image.webPath) }}"
+                                                alt="{{ advert.image.alt }}"
+                                        />
+                                        {% endif %}
+                                        {{ form_widget(form.image) }}
                                     </div>
                                 </div>
                             </div>

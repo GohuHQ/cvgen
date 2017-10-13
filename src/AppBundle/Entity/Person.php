@@ -2,7 +2,6 @@
 
 namespace AppBundle\Entity;
 
-use AppBundle\Entity\Skill;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
@@ -45,9 +44,10 @@ class Person
     /**
      * @ORM\Column(type="string")
      * @ORM\OneToOne(targetEntity="AppBundle\Entity\Image", cascade={"persist", "remove"})
-     * @Assert\File
+     * @ORM\JoinColumn(nullable=false)
+     * @Assert\Valid()
      */
-    private $picture;
+    private $image;
 
     /**
      * @var \DateTime
@@ -442,9 +442,9 @@ class Person
     /**
      * @return Image
      */
-    public function getPicture()
+    public function getImage()
     {
-        return $this->picture;
+        return $this->image;
     }
 
     /**
@@ -463,15 +463,14 @@ class Person
     }
 
     /**
-     * Set picture
+     * Set image
      *
-     * @param string $picture
-     *
+     * @param Image|string $image
      * @return Person
      */
-    public function setPicture($picture)
+    public function setImage(Image $image = null)
     {
-        $this->picture = $picture;
+        $this->image = $image;
 
         return $this;
     }
